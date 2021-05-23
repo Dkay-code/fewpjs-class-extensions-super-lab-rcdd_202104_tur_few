@@ -17,5 +17,15 @@ class Deciduous extends Tree {
   static definition(){
     super.definition() + 'Deciduous trees shed their leaves annually.'
   }
+}
 
+class Deciduous extends Tree {
+  constructor(species, name){
+    super(species);
+    this.name = name;
+  }
+
+  static definition(){
+    super.definition() + 'Evergreens keep their leaves all year round.'
+  }
 }
